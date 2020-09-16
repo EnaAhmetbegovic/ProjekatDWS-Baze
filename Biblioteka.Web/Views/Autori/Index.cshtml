@@ -8,7 +8,7 @@
 
 
 <p>
-    <a asp-action="Create">Create New</a>
+    <a asp-action="Create">Kreiraj novog</a>
 </p>
 <table class="table">
     <thead>
@@ -45,9 +45,9 @@
                     @(string.Join(" ", item.Biografija.Split().Take(8)))...
                 </td>
                 <td>
-                    <a asp-action="Edit" asp-route-id="@item.aId">Edit</a> |
-                    <a asp-action="Details" asp-route-id="@item.aId">Details</a> |
-                    <a asp-action="Delete"  asp-route-id="@item.aId">Delete</a>
+                    <a asp-action="Edit" asp-route-id="@item.aId">Uredi</a> |
+                    <a asp-action="Details" asp-route-id="@item.aId">Detalji</a> |
+                    <a asp-action="Delete"  asp-route-id="@item.aId">Obriši</a>
                 </td>
             </tr>
         }

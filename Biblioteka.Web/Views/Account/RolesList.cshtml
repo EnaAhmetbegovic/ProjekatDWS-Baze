@@ -5,13 +5,18 @@
    
 }
 
-<h1>View </h1>
+<h1>Uredi uloge </h1>
+<br/>
 
 @{
 foreach(var role in Model){
 
-<p>Role name: @role.RoleName Role id: @role.RoleId</p>
-<a class="btn btn-primary" asp-action="EditUsersInRole" asp-route-RoleId="@role.RoleId"  asp-controller="Account">Add/Remove user for this role</a>
+    <p>Uloga: <b>@role.RoleName</b></p>  
+    <p>Id uloge: @role.RoleId</p>
+<a class="btn btn-primary" asp-action="EditUsersInRole" asp-route-RoleId="@role.RoleId"  asp-controller="Account">Dodaj/obriši ulogu</a>
+<br />
+<br />
+<br />
 }
 
 }

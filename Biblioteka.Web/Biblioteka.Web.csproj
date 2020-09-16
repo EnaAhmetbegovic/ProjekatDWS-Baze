@@ -21,6 +21,10 @@
     <Content Remove="Views\Knjige\Delete.cshtml" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Include="wwwroot\images\noaccess.png" />
+  </ItemGroup>
+
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.App" />

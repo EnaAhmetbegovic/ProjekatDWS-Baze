@@ -9,7 +9,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Biblioteka.Web.Controllers
 {
-    [Authorize(Roles = "Administrator,UserTest")]
+    [Authorize(Roles = "Administrator")]
     public class AccountController : Controller
     {
         private readonly UserManager<IdentityUser> userManager;
@@ -225,5 +225,14 @@ namespace Biblioteka.Web.Controllers
 
             return RedirectToAction("Register");
         }
+
+        [AllowAnonymous]
+        [HttpGet]
+        public IActionResult AccessDenied()
+        {
+            return View();
+        }
+
+
     }
 }

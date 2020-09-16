@@ -1,23 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "G:\\Biblioteka-master\\Biblioteka.DAL\\Biblioteka.DAL.csproj": {}
+    "C:\\DWSSelmaProjekat\\Biblioteka.DAL\\Biblioteka.DAL.csproj": {}
   },
   "projects": {
-    "G:\\Biblioteka-master\\Biblioteka.DAL\\Biblioteka.DAL.csproj": {
+    "C:\\DWSSelmaProjekat\\Biblioteka.DAL\\Biblioteka.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\Biblioteka-master\\Biblioteka.DAL\\Biblioteka.DAL.csproj",
+        "projectUniqueName": "C:\\DWSSelmaProjekat\\Biblioteka.DAL\\Biblioteka.DAL.csproj",
         "projectName": "Biblioteka.DAL",
-        "projectPath": "G:\\Biblioteka-master\\Biblioteka.DAL\\Biblioteka.DAL.csproj",
-        "packagesPath": "C:\\Users\\ena_x\\.nuget\\packages\\",
-        "outputPath": "G:\\Biblioteka-master\\Biblioteka.DAL\\obj\\",
+        "projectPath": "C:\\DWSSelmaProjekat\\Biblioteka.DAL\\Biblioteka.DAL.csproj",
+        "packagesPath": "C:\\Users\\Ena\\.nuget\\packages\\",
+        "outputPath": "C:\\DWSSelmaProjekat\\Biblioteka.DAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\ena_x\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Ena\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],

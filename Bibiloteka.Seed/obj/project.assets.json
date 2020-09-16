@@ -6791,23 +6791,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ena_x\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\Ena\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\Biblioteka-master\\Bibiloteka.Seed\\Bibiloteka.Seed.csproj",
+      "projectUniqueName": "C:\\DWSSelmaProjekat\\Bibiloteka.Seed\\Bibiloteka.Seed.csproj",
       "projectName": "Bibiloteka.Seed",
-      "projectPath": "G:\\Biblioteka-master\\Bibiloteka.Seed\\Bibiloteka.Seed.csproj",
-      "packagesPath": "C:\\Users\\ena_x\\.nuget\\packages\\",
-      "outputPath": "G:\\Biblioteka-master\\Bibiloteka.Seed\\obj\\",
+      "projectPath": "C:\\DWSSelmaProjekat\\Bibiloteka.Seed\\Bibiloteka.Seed.csproj",
+      "packagesPath": "C:\\Users\\Ena\\.nuget\\packages\\",
+      "outputPath": "C:\\DWSSelmaProjekat\\Bibiloteka.Seed\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\"
+        "C:\\Microsoft\\Xamarin\\NuGet\\",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\ena_x\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Ena\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -6821,8 +6823,8 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "G:\\Biblioteka-master\\Biblioteka.DAL\\Biblioteka.DAL.csproj": {
-              "projectPath": "G:\\Biblioteka-master\\Biblioteka.DAL\\Biblioteka.DAL.csproj"
+            "C:\\DWSSelmaProjekat\\Biblioteka.DAL\\Biblioteka.DAL.csproj": {
+              "projectPath": "C:\\DWSSelmaProjekat\\Biblioteka.DAL\\Biblioteka.DAL.csproj"
             }
           }
         }

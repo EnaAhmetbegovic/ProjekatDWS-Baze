@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Biblioteka.Web.DAL.Entities;
 using Biblioteka.Web.DAL.Repositories;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Biblioteka.Web.Controllers
@@ -20,5 +21,15 @@ namespace Biblioteka.Web.Controllers
             Autori = Autori ?? repositoryA;
             Izdavaci = Izdavaci ?? repositoryI;
         }
+
+
+        [AllowAnonymous]
+        [HttpGet]
+        public IActionResult AccessDenied()
+        {
+            return View();
+        }
+
     }
+
 }
